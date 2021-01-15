@@ -1,5 +1,5 @@
 /**
- * @file project.c
+ * @file SocialNetwork.c
  * @author Bilal Kahraman (l1117062@std.yildiz.edu.tr)
  * @brief odev3.pdf
  * @version 0.1
@@ -11,7 +11,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <limits.h>
-#include <string.h>
 
 typedef struct graph
 {
@@ -127,7 +126,6 @@ int main()
     free(userFollower);
     free(userTotal);
 
-    exit(1);
     //find the shortest path
     dijkstra(totalUser);
 
